@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavigationBar</title>
+    <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+        }
+        .nav__bar ul{
+           list-style-type: none;
+           background-color: #6495ed;
+        }
+        .nav__bar li{
+            display: inline-block;
+            /* margin-right: 20px; */
+            height: 60px;
+            padding: 20px 20px;
+        }
+        .nav__bar a{
+            text-decoration: none;
+            border-bottom:2px solid white ;
+            color: white;
+            text-align: center;
+        }
+        .nav__bar a:hover{
+            color: #ed8f64;
+            border-bottom: 2px solid red ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav__bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
